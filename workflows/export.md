@@ -22,7 +22,7 @@ The script only understands the formats in [resume.md](resume.md#format) and [ta
 
 ## 2. Check the page count
 
-If the script says it's over the limit, cut from the Markdown file, starting with the bullets and entries least relevant to the job, and run it again. Never change the template's font sizes, margins, or spacing to make it fit. Cover letters are always one page.
+If the script says it's over the limit, cut from the Markdown file, starting with the bullets and entries least relevant to the job, and run it again. If it fits but the last page ends well short of the bottom, add back the next most relevant bullets from my notes and run it again. Never change the template's font sizes, margins, or spacing to make it fit. Cover letters are always one page.
 
 When it fits, tell me where the PDF is and what you cut, if anything.
 

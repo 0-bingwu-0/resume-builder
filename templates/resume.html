@@ -6,30 +6,31 @@
 <style>
   /* Paper size. A4 is set below. For Letter (US and Canada), change only these two lines:
      size: Letter; and --page-width: 8.5in; --page-height: 11in; */
-  @page { size: A4; margin: 14mm 16mm; }
+  @page { size: A4; margin: 10mm 12mm; }
   :root { --page-width: 210mm; --page-height: 297mm; }
 
   /* Everything below is fixed. Don't change it. */
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10.5pt; line-height: 1.35; color: #111; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 9.5pt; line-height: 1.22; color: #111; }
   a { color: inherit; text-decoration: none; }
-  header { text-align: center; margin-bottom: 8pt; }
-  h1 { font-size: 20pt; font-weight: 600; letter-spacing: 0.3pt; }
-  .contact { margin-top: 3pt; font-size: 10pt; color: #333; }
-  h2 { font-size: 11pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8pt; border-bottom: 0.75pt solid #111; padding-bottom: 2pt; margin: 10pt 0 5pt; }
-  .entry { margin-bottom: 6pt; break-inside: avoid; }
+  header { text-align: center; margin-bottom: 5pt; }
+  h1 { font-size: 18pt; font-weight: 600; letter-spacing: 0.3pt; }
+  .contact { margin-top: 2pt; font-size: 9pt; color: #333; }
+  h2 { font-size: 10pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8pt; border-bottom: 0.75pt solid #111; padding-bottom: 1.5pt; margin: 6pt 0 2.5pt; }
+  .entry { margin-bottom: 3pt; break-inside: avoid; }
   .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; }
   .right { white-space: nowrap; }
   .org { font-weight: 600; }
   .role { font-style: italic; }
-  ul { margin: 2pt 0 0 14pt; }
-  li { margin-bottom: 1.5pt; }
-  .skills p { margin-bottom: 2pt; }
+  ul { margin: 1pt 0 0 11pt; }
+  li { margin-bottom: 0.3pt; }
+  li strong { font-weight: 600; }
+  .skills p { margin-bottom: 1pt; }
 
   /* On screen, show the page at its real size, so the preview matches the PDF. */
   @media screen {
     html { background: #e8e8e8; }
-    body { width: var(--page-width); min-height: var(--page-height); margin: 24px auto; padding: 14mm 16mm; background: #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18); }
+    body { width: var(--page-width); min-height: var(--page-height); margin: 24px auto; padding: 10mm 12mm; background: #fff; box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18); }
   }
 </style>
 </head>
@@ -45,8 +46,8 @@
       <div class="row"><span class="org">Westbridge Institute of Technology</span><span class="right">Pune, India</span></div>
       <div class="row"><span class="role">B.Tech in Computer Science, CGPA 8.6/10</span><span class="right">2023 – 2027</span></div>
       <ul>
-        <li>Merit scholarship for the top 5% of the branch (2024).</li>
-        <li>Coursework: Data Structures, Databases, Operating Systems, Machine Learning.</li>
+        <li><strong>Merit scholarship:</strong> Awarded for the top 5% of the branch (2024).</li>
+        <li><strong>Coursework:</strong> Data Structures, Databases, Operating Systems, Machine Learning.</li>
       </ul>
     </div>
   </section>
@@ -57,9 +58,9 @@
       <div class="row"><span class="org">Kirana Ledger</span><span class="right">Bengaluru, India (remote)</span></div>
       <div class="row"><span class="role">Backend Intern</span><span class="right">May 2026 – Jul 2026</span></div>
       <ul>
-        <li>Built an API that exports monthly sales reports as CSV and PDF (Node.js, PostgreSQL), cutting report requests to support from about 40 a week to under 10.</li>
-        <li>Found and indexed a slow query on the transactions page, bringing load time from about 3s to under 1s.</li>
-        <li>Wrote tests for the payments module, raising coverage from 35% to 70%.</li>
+        <li><strong>Report export API:</strong> Built an API that exports monthly sales reports as CSV and PDF (Node.js, PostgreSQL), cutting report requests to support from about 40 a week to under 10.</li>
+        <li><strong>Query speedup:</strong> Found and indexed a slow query on the transactions page, bringing load time from about 3s to under 1s.</li>
+        <li><strong>Payments tests:</strong> Wrote tests for the payments module, raising coverage from 35% to 70%.</li>
       </ul>
     </div>
   </section>
@@ -70,15 +71,15 @@
       <div class="row"><span class="org">Campus Lost &amp; Found</span><span class="right">github.com/riya-sharma-example/lost-and-found</span></div>
       <div class="row"><span class="role">Kotlin, Firebase</span><span class="right">Jan 2026 – Mar 2026</span></div>
       <ul>
-        <li>Built the backend and matching for an Android app that pairs lost and found items by category, place, and time.</li>
-        <li>Reached about 600 students in the first month; 80+ items went back to their owners.</li>
+        <li><strong>Matching backend:</strong> Built the backend and matching for an Android app that pairs lost and found items by category, place, and time.</li>
+        <li><strong>Adoption:</strong> Reached about 600 students in the first month; 80+ items went back to their owners.</li>
       </ul>
     </div>
     <div class="entry">
       <div class="row"><span class="org">Mess Menu Ratings</span></div>
       <div class="row"><span class="role">Python, Flask, SQLite</span><span class="right">Sep 2025</span></div>
       <ul>
-        <li>Built a daily meal rating app used by about 150 hostel students; the mess committee replaced two dishes based on the ratings.</li>
+        <li><strong>Ratings app:</strong> Built a daily meal rating app used by about 150 hostel students; the mess committee replaced two dishes based on the ratings.</li>
       </ul>
     </div>
   </section>
@@ -89,8 +90,8 @@
       <div class="row"><span class="org">Coding Club, Westbridge Institute of Technology</span><span class="right">Pune, India</span></div>
       <div class="row"><span class="role">Workshop Lead</span><span class="right">2025 – 2026</span></div>
       <ul>
-        <li>Ran six beginner workshops on Git and Python, about 50 students each.</li>
-        <li>Organized the club's first 24-hour hackathon: 120 participants in 30 teams.</li>
+        <li><strong>Workshops:</strong> Ran six beginner workshops on Git and Python, about 50 students each.</li>
+        <li><strong>Hackathon:</strong> Organized the club's first 24-hour hackathon: 120 participants in 30 teams.</li>
       </ul>
     </div>
   </section>

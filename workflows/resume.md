@@ -17,17 +17,17 @@ When I answer a gap or share new details, add them to my experience notes first,
 
 ## What goes in
 
-My notes hold everything; the resume is a selection. Pick what best shows I can do the job I want, and leave the rest in the notes.
+My notes hold everything; the resume is a selection. Pick what best shows I can do the job I want, and use the whole page for it: a full page of specific facts beats a short one with room to spare. If I gave you a resume of my own, keep everything in it that still fits; cut from it only to stay within the page limit, starting with what matters least for the job I want.
 
 * **Sections:** Contact, then Education, Experience, Projects, Activities, and Skills. If I've been working for a few years, put Experience before Education. No summary or objective unless I ask.
 * **Optional sections:** Add these only when I have entries that earn them. Research goes after Experience, for lab or thesis work with a supervisor. Publications goes after Research, for papers, posters, and preprints, with my name as it appears on them. Open Source goes after Projects, for contributions to projects I don't own, with links to merged pull requests or the project. Awards goes before Activities, for competitions, hackathons, and scholarships. A single award fits better as a bullet under Education or the project it came from than as its own section.
 * **Order:** Most recent first within each section.
-* **Bullets:** Two to four per entry, most relevant first. Start with a verb, say what I did and what came of it, and keep each to one line, two at most. Use numbers wherever I gave them.
+* **Bullets:** Two to five per entry, most relevant first. Open each one with a short bold title that names the point, like `**Founder Assessment Engine:**` or `**Crisis detection:**`, then a sentence that starts with a verb and says what I did and what came of it. Keep each to two lines at most. Use numbers wherever I gave them. If my own resume already gives a bullet a title or bolds its key phrase, use that as the title.
 * **Technical work:** Name the tool where it did the work ("added a PostgreSQL index"), not as a list tacked on the end. For projects, say what it does and give the result: users, speed, scale, a ranking, or that it's still running. If a project is open source, link the repo. If it was a team project, say what part was mine.
 * **Skills:** Group by kind, like Languages, Frameworks, and Tools. List only what I've used in something on the resume or in my notes, and that I could talk about in an interview. Mark something "basic" if my notes say so. No skill bars or percentages.
 * **Tense:** Past for things I've finished, present for what I'm still doing.
 * **Leave out:** Photo, date of birth, and other personal details, unless my profile says they're expected where I'm applying.
-* **Length:** The page limit in my profile.
+* **Length:** The page limit in my profile, filled. If the last page has a gap at the bottom, add the next most relevant bullets or entries from my notes.
 
 ## Review
 
@@ -55,7 +55,7 @@ email · phone · City, Country · linkedin.com/in/you · github.com/you
 ### Company or school | City, Country
 Role or degree | Mon YYYY – Mon YYYY
 
-- What I did and what came of it.
+- **Short title:** What I did and what came of it.
 
 ## Publications
 
@@ -66,4 +66,4 @@ Role or degree | Mon YYYY – Mon YYYY
 **Label:** item, item, item
 ```
 
-Each entry is a `###` line plus the line under it. Text before ` | ` shows on the left, text after it on the right; the right side is optional. For a project, put the link on the right of the `###` line and the tools on the left of the line under it. For research, put the lab or school on the `###` line and my role and supervisor under it. Publications and Awards can be plain bullets under the section heading, without `###` entries. Use `**bold**` and `*italic*` only inside a line, and keep each bullet on one line in the file.
+Each entry is a `###` line plus the line under it. Text before ` | ` shows on the left, text after it on the right; the right side is optional. For a project, put the link on the right of the `###` line and the tools on the left of the line under it. For research, put the lab or school on the `###` line and my role and supervisor under it. Publications and Awards can be plain bullets under the section heading, without `###` entries. Use `**bold**` and `*italic*` only inside a line, and keep each bullet on one line in the file. Bold the bullet's title and nothing else in it.
